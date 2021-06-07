@@ -1,0 +1,12 @@
+/* C:/Users/aptay/AppData/Local/Temp/bootgen_mini_zed_system7066751480021705636/sd_card_temp/boot.bif */
+/* Command to create bitstream .bin file:       */
+/*   bootgen -image <bif_file> -split bin -w    */
+/* Command to create BOOT.BIN file:             */
+/*   bootgen  -image <bif_file> -w -o i BOOT.BIN */
+/*hardware*/
+the_ROM_image:
+{
+ [bootloader] C:/hdl_projects/minized_ir/wksp/hardware/export/hardware/sw/hardware/boot/fsbl.elf
+ C:/hdl_projects/minized_ir/wksp/mini_zed/_ide/bitstream/design_1_wrapper.bit
+ C:/hdl_projects/minized_ir/wksp/mini_zed/Debug/mini_zed.elf
+}
